@@ -1,23 +1,15 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
-"""A module containing the Review class."""
-=======
-"""
-This module defines Review Class
-"""
->>>>>>> bf376159e761ccdb4bc604d09db3cf8e555b511c
+"""Defines the review class"""
 
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-<<<<<<< HEAD
-    """Class representing a Review."""
-=======
     """
-    Review class
+    child class of BaseModel
+    has 3 attributes(empty strings) - place_id, user_id and text
     """
->>>>>>> bf376159e761ccdb4bc604d09db3cf8e555b511c
+
     place_id = ""
     user_id = ""
     text = ""

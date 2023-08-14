@@ -1,21 +1,12 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
-"""A module containing the State class."""
-=======
-"""
-This module defines State Class
-"""
->>>>>>> bf376159e761ccdb4bc604d09db3cf8e555b511c
+"""Defines the state class"""
 
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-<<<<<<< HEAD
-    """Class representing a State."""
-=======
     """
-    State class
+    child classs of BaseModel
+    represents a state, takes one atrr - name of the state
     """
->>>>>>> bf376159e761ccdb4bc604d09db3cf8e555b511c
     name = ""
