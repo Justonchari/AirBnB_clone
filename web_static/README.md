@@ -1,0 +1,1 @@
+web_ static
